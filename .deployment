@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "python": {
+      "commands": [
+        {
+          "name": "python",
+          "path": "python"
+        }
+      ],
+      "usingVersion": "3.9",
+      "framework": "FastAPI"
+    }
+  },
+  "build": {
+    "commands": [
+      "pip install -r requirements.txt"
+    ]
+  },
+  "run": {
+    "command": "python app.py"
+  }
+}
